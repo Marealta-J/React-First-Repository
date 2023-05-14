@@ -1,0 +1,28 @@
+@import url(Normalize.css);
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.heading{
+    text-align: center;
+}
+
+.App {
+    width: 900px;
+}
+
+.post {
+    display: flex;
+    padding: 15px;
+    border: 2px solid teal;
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    width: 670px;
+
+}
