@@ -4,13 +4,13 @@ const PostItem = (props) => {
     return (
         <div className="post">
           <div className="post__content">
-            <strong>{props.post.id}. {props.post.title}</strong>
+            <strong>{props.number}. {props.post.title}</strong>
             <div className="text">
                 {props.post.body}
             </div>
           </div>
           <div className="post_btns">
-            <button>удалить текст</button>
+            <button>удалить</button>
           </div>
         </div>
     );
